@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "658d375510834ad03d04a922"
+  },
+  "datos": {
+    "direccion": "Calle Mayor 37 1ª3ª 08012 Barcelona",
+    "email": "correo@gmail.com",
+    "fecha_registro": {
+      "$date": "2023-01-01T22:09:00.000Z"
+    },
+    "telefono": "123 256 789"
+  },
+  "nombre_cliente": "Albert González Pascual",
+  "ultima_compra": {
+    "gafa_id": 1,
+    "graduacion": {
+      "d": 2,
+      "i": 2.3
+    },
+    "marca": "Rayban",
+    "color_cristal": {
+      "d": "Amarillo",
+      "i": "Amarillo"
+    },
+    "precio": 127,
+    "tipo_montura": "Metálica",
+    "vendido_por": 1
+  },
+  "cliente_id": 1,
+  "recomendado_por": null
+}]
