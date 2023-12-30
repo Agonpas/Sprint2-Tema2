@@ -4,13 +4,14 @@
   },
   "marca": "Rayban",
   "tipo_montura": "Metálica",
-  "proveedor": {
+  "proveedor_datos": {
     "nombre": "Googles Associated S.L.",
     "direccion": "Calle Segovia 87 Nave 3 0804 Barcelona",
     "fax": "798 654 133",
     "nif": "12.456.654",
     "telefono": "798 654 132\""
   },
+  "precio": 105,
   "comprado_por": [
     {
       "_id": {
@@ -24,6 +25,6 @@
       },
       "cliente_id": "2"
     }
-  ],
-  "precio": 105
+  ]
+  
 }]
