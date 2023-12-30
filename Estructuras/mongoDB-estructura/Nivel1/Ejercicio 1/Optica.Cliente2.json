@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "658d375510834ad03d04a922"
+  },
+  "nombre_cliente": "Albert González Pascual",
+  "datos": {
+    "direccion": "Calle Mayor 37 1ª3ª 08012 Barcelona",
+    "email": "correo@gmail.com",
+    "fecha_registro": {
+      "$date": "2023-01-01T22:09:00.000Z"
+    },
+    "telefono": "123 256 789"
+  },
+  "cliente_id": 1,
+  "ultima_compra": {
+    "gafa_id": 1,
+    "graduacion": {
+      "d": 2,
+      "i": 2.3
+    },
+    "marca": "Rayban",
+    "color_cristal": {
+      "d": "Amarillo",
+      "i": "Amarillo"
+    },
+    "precio": 127,
+    "tipo_montura": "Metálica",
+    "vendido_por": 1
+  },
+  "recomendado_por": null
+},
+{
+  "_id": {
+    "$oid": "659012463b1664e4cad20759"
+  },
+  "nombre_cliente": "Meria Algorta Pérez",
+  "datos": {
+    "direccion": "Calle Topacio 81 4º2ª 08016 Barcelona",
+    "email": "email@gmail.com",
+    "fecha_registro": {
+      "$date": "2023-11-15T22:09:00.000Z"
+    },
+    "telefono": "321 652 978"
+  },
+  "cliente_id": 2,
+  "ultima_compra": {
+    "gafa_id": 2,
+    "graduacion": {
+      "d": 3,
+      "i": 4.5
+    },
+    "marca": "Rayban",
+    "color_cristal": {
+      "d": "Azul",
+      "i": "Azul"
+    },
+    "precio": 140.55,
+    "tipo_montura": "Flotante",
+    "vendido_por": 1
+  },
+ 
+  "recomendado_por": 1
+}]
