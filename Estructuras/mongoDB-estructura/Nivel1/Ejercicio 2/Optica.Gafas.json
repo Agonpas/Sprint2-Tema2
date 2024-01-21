@@ -6,7 +6,14 @@
   "tipo_montura": "Metálica",
   "proveedor_datos": {
     "nombre": "Googles Associated S.L.",
-    "direccion": "Calle Segovia 87 Nave 3 0804 Barcelona",
+    "direccion": {
+      "calle": "Segovia",
+      "ciudad": "Barcelona",
+      "codigo_postal": "0804",
+      "numero": "87",
+      "pais": "España",
+      "piso_puerta": "Nave 3"
+    },
     "fax": "798 654 133",
     "nif": "12.456.654",
     "telefono": "798 654 132\""
@@ -26,5 +33,4 @@
       "cliente_id": "2"
     }
   ]
-  
 }]
