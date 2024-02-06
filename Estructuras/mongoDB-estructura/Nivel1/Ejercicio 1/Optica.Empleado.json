@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "65b64d2a9bd3771a31efdaa0"
+  },
+  "apellido": "Pascual",
+  "nombre": "Carlos",
+  "empleado_id": 1
+},
+{
+  "_id": {
+    "$oid": "65c276380cbd5280ffb8c58e"
+  },
+  "apellido": "Gutierrez",
+  "nombre": "Irene",
+  "empleado_id": 2
+}]

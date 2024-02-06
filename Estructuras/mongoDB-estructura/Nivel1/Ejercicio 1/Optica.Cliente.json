@@ -13,48 +13,56 @@
   "nombre_cliente": "Albert González Pascual",
   "cliente_id": 1,
   "recomendado_por": null,
-  "compras": {
-    "ultima_compra": {
+  "compras": [
+    {
       "gafa_id": 1,
       "graduacion": {
         "d": 2,
         "i": 2.3
       },
-      "marca": "Rayban",
       "color_cristal": {
         "d": "Amarillo",
         "i": "Amarillo"
       },
+      "marca": "Rayban",
       "fecha_hora_venta": "2023-12-10T00:00:00.000+00:00",
       "precio": 127,
       "tipo_montura": "Metálica",
-      "vendido_por": 1,
+      "vendido_por": {
+        "_id": {
+          "$oid": "65b64d2a9bd3771a31efdaa0"
+        },
+        "empleado_id": 1
+      },
       "proveedor": {
-        "$oid": "65ad04c826adc6e722aba329"
+        "$oid": "65900e4f3b1664e4cad20757"
       }
-      
     },
-    "compra_1": {
+    {
       "gafa_id": 2,
       "graduacion": {
-        "d": 2,
-        "i": 2.3
+        "d": 1.5,
+        "i": 2.0
       },
-      "marca": "Solar",
       "color_cristal": {
-        "d": "Azul",
-        "i": "Azul"
+        "d": "Verde",
+        "i": "Verde"
       },
+      "marca": "Vision",
       "fecha_hora_venta": "2024-01-10T00:00:00.000+00:00",
-      "precio": 156,
+      "precio": 250,
       "tipo_montura": "Pasta",
-      "vendido_por": 1,
+      "vendido_por": {
+        "_id": {
+          "$oid": "65c276380cbd5280ffb8c58e"
+        },
+        "empleado_id": 2
+      },
       "proveedor": {
-        "$oid": "65ad04c826adc6e722aba328"
+        "$oid": "65b6481d9bd3771a31efda9e"
       }
-      
     }
-  }
+  ]
 },
 {
   "_id": {
@@ -64,32 +72,40 @@
     "direccion": "Calle Topacio 81 4º2ª 08016 Barcelona",
     "email": "email@gmail.com",
     "fecha_registro": {
-      "$date": "2024-01-20T22:09:00.000Z"
+      "$date": "2023-11-15T22:09:00.000Z"
     },
     "telefono": "321 652 978"
   },
   "nombre_cliente": "Maria Algorta Pérez",
   "cliente_id": 2,
-  "recomendado_por": 1,
-  "compras": {
-    "ultima_compra": {
+  "recomendado_por": {
+    "$oid": "658d375510834ad03d04a922",
+    "cliente_id": 1
+  },
+  "compras": [
+    {
       "gafa_id": 3,
       "graduacion": {
         "d": 3,
         "i": 4.5
       },
-      "marca": "Rayban",
       "color_cristal": {
-        "d": "Verde",
-        "i": "Verde"
+        "d": "Azul",
+        "i": "Azul"
       },
-      "fecha_hora_venta": "2024-01-20T22:09:00.000Z",
-      "precio": 166,
+      "marca": "Rayban",
+      "fecha_hora_venta": "2024-02-10T00:00:00.000+00:00",
+      "precio": 140.55,
       "tipo_montura": "Flotante",
-      "vendido_por": 1,
+      "vendido_por": {
+        "_id": {
+          "$oid": "65b64d2a9bd3771a31efdaa0"
+        },
+        "empleado_id": 1
+      },
       "proveedor": {
-        "$oid": "65ad04c826adc6e722aba329"
+        "$oid": "65900e4f3b1664e4cad20757"
       }
     }
-  }
+  ]
 }]

@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "65900e4f3b1664e4cad20757"
+  },
+  "nombre": "Googles Associated S.L.",
+  "direccion": {
+    "calle": "Segovia",
+    "numero": "87",
+    "piso_puerta": "Nave 3",
+    "ciudad": "Barcelona",
+    "codigo_postal": "08004",
+    "pais": "España"
+  },
+  "telefono": "798 654 132",
+  "fax": "798 654 133",
+  "nif": "12.456.654"
+},
+{
+  "_id": {
+    "$oid": "65b6481d9bd3771a31efda9e"
+  },
+  "nombre": "Visual Vista S.L.",
+  "direccion": {
+    "calle": "Mayor",
+    "numero": "44",
+    "piso_puerta": "Planta 3",
+    "ciudad": "Pamplona",
+    "codigo_postal": "08004",
+    "pais": "España"
+  },
+  "telefono": "798 654 132",
+  "fax": "798 654 133",
+  "nif": "12.456.654" 
+}]
